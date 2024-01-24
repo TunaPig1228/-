@@ -1,5 +1,5 @@
 from flask import Flask, request
-import g4f
+from .. import g4f
 
 app = Flask(__name__)
 
